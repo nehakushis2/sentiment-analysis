@@ -77,8 +77,8 @@ def speech_sentiment(audio_path):
         "Neutral"
     )
     
-    print(f"💬 Sentiment: {sentiment}")
-    print(f"📊 Scores: {scores}")
+    print(f"Sentiment: {sentiment}")
+    print(f"Scores: {scores}")
 
 # Example
 speech_sentiment(audio_file)
